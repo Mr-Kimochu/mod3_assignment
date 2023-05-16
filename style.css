@@ -1,0 +1,47 @@
+/* Set background color for the navbar */
+.navbar-default {
+    background-color: #fff;
+}
+
+/* Set color for the navbar brand */
+.navbar-default .navbar-brand {
+    color: #333;
+}
+
+/* Set font size for the navbar brand */
+.navbar-default .navbar-brand {
+    font-size: 24px;
+}
+
+/* Center the navbar brand */
+.navbar-default .navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Hide the navbar when scrolling down */
+.navbar-scroll {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+/* Show the navbar when scrolling up */
+.navbar-scroll.scroll-down {
+    transform: translateY(-100%);
+}
+
+/* Set margins for the container */
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Set font size and line height for the page heading */
+h1 {
+    font-size: 36px;
+    line-height: 1.5;
+}
